@@ -47,3 +47,5 @@ Maintain project-specific navigation and validated setup/check commands here as 
 ## Development navigation
 
 Current design: [PROJECT](docs/dev/PROJECT.md), [ARCHITECTURE](docs/dev/ARCHITECTURE.md), [DECOMPOSITION](docs/dev/DECOMPOSITION.md) and [SPEC](docs/dev/SPEC.md). Delivery strategy is in [PLAN](docs/dev/PLAN.md); physical ownership is in [layout](docs/dev/layout.md). Application/build/test commands are planned there and must not be claimed runnable before implementation establishes and verifies them.
+
+Executable implementation work is owned by [TASKS](docs/dev/TASKS.md); current preparation decisions and scoped approvals are in [DOCS_PREPARATION](docs/dev/DOCS_PREPARATION.md).
