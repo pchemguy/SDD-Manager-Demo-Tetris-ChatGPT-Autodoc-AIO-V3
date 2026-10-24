@@ -13,14 +13,14 @@
 
 The user requests desktop browser Tetris: classic falling tetrominoes, movement, rotation, clearing, score and increasing speed; Hold, ghost, 7-bag, wall kicks, hard drop, full-gravity-interval default locking; configurable dynamic ghost visibility; penetrator traversal without destruction, valid final placement, lowest-valid hard drop/ghost, four-line bonus awards capped at three, white penetrator and bonus symbols; all six configuration controls; independent URL/cookie/default resolution and persistence on change, preserving cookies for omitted parameters and saving explicit defaults. Session-only settings may precede persistence. Release every implemented, verified and integrated phase with a managed version/tag and notes.
 
-Material choices to present with PROJECT: midline-straddling ghosts; lock timing and resets; penetrator activation, movement, Hold and locking; invalid and duplicated configuration values; live policy changes; proposed technology and non-goals. None is claimed as a user-confirmed decision yet. Detailed proposed resolutions will be retained in PROJECT rather than duplicated here. No game implementation or release is authorized by documentation acceptance alone.
+Material choices presented in [PROJECT](PROJECT.md): midline-straddling ghosts; lock timing and resets; penetrator activation, movement, Hold and locking; invalid and duplicated configuration values; live policy changes; proposed technology and non-goals. None is claimed as a user-confirmed decision yet. Detailed proposed resolutions are retained in PROJECT rather than duplicated here. No game implementation or release is authorized by documentation acceptance alone.
 
 ## Decisions and document evidence
 
 | Task | Evidence / decision basis |
 | --- | --- |
 | DOCS-001 | All four existing root files retained byte for byte against initial commit 125b90e1e6e456a627acd259d735d244cce82c6c; no root copies needed. Task list, this record and HANDOFF initialized together. Packaged provenance scaffold copied and integrated as described below. |
-| DOCS-002 | Not yet proposed or accepted at this initialization checkpoint. |
+| DOCS-002 | PROJECT proposal SHA-256 `111827f3a0a641f7a469cf822d0c5d190c4ef84fb07503c9e6e32f5fb3c76993`; human acceptance pending. Reviewed against the complete request for scope, consequential interactions, document boundaries and Markdown/link hygiene. Agent-proposed defaults and non-goals are labelled explicitly. DOCS-002 remains unchecked. |
 | DOCS-003–008 | Not started; subsequent checkpoints preapproved by autodoc once PROJECT is accepted. |
 | DOCS-009 | Not started; outside the selected autodoc stop. |
 
@@ -39,4 +39,4 @@ Material choices to present with PROJECT: midline-straddling ghosts; lock timing
 
 ## Pending transitions
 
-Publish/read back this initialization commit, then close and read back issue 1 with its evidence before PROJECT authoring. Subsequent proposal and human acceptance remain pending. Keep issues 2–9 and milestone 1 open at this checkpoint.
+Initialization d05817f992ec07cdf5268d76cbd2169b4c328d54 was published/read back; issue 1 closure was read back as completed. Publish/read back this PROJECT proposal, then await human acceptance before ARCHITECTURE. Issues 2–9 and milestone 1 remain open. No package QC, preparation integration or implementation is selected yet.
