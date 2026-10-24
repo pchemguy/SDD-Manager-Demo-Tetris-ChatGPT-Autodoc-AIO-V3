@@ -21,7 +21,12 @@ Material choices presented in [PROJECT](PROJECT.md): midline-straddling ghosts; 
 | --- | --- |
 | DOCS-001 | All four existing root files retained byte for byte against initial commit 125b90e1e6e456a627acd259d735d244cce82c6c; no root copies needed. Task list, this record and HANDOFF initialized together. Packaged provenance scaffold copied and integrated as described below. |
 | DOCS-002 | PROJECT proposal SHA-256 `111827f3a0a641f7a469cf822d0c5d190c4ef84fb07503c9e6e32f5fb3c76993`; Human accepted the exact proposal in commit 5d02e2e6ac3100a36fe2fb26fd35ff37f4b33322 with “Approve”. Reviewed against the complete request for scope, consequential interactions, document boundaries and Markdown/link hygiene. Accepted proposal bytes retained unchanged; defaults and non-goals carry this human acceptance. |
-| DOCS-003–008 | Not started; subsequent checkpoints preapproved by autodoc once PROJECT is accepted. |
+| DOCS-003 | `docs/dev/ARCHITECTURE.md` SHA-256 `1a64abae8e667ec2a9debab2706c6ac07ee7b7de6855f49e0ff199ea0cbc5745`. Acceptance basis: autodoc preapproval after user acceptance of PROJECT. Scoped conformance/ownership review, local-link and heading checks passed; applicable adjacent report records substantive findings and readiness. |
+| DOCS-004 | Not started; autodoc checkpoint preapproved. |
+| DOCS-005 | Not started; autodoc checkpoint preapproved. |
+| DOCS-006 | Not started; autodoc checkpoint preapproved. |
+| DOCS-007 | Not started; autodoc checkpoint preapproved. |
+| DOCS-008 | Not started; autodoc checkpoint preapproved. |
 | DOCS-009 | Not started; outside the selected autodoc stop. |
 
 ## Initialization
@@ -39,4 +44,4 @@ Material choices presented in [PROJECT](PROJECT.md): midline-straddling ghosts; 
 
 ## Pending transitions
 
-Initialization d05817f992ec07cdf5268d76cbd2169b4c328d54 was published/read back; issue 1 closure was read back as completed. PROJECT proposal 5d02e2e6ac3100a36fe2fb26fd35ff37f4b33322 was published/read back and accepted. Publish/read back this approval commit, then close/read back issue 2 before ARCHITECTURE. Issues 3–9 and milestone 1 remain open. No package QC, preparation integration or implementation is selected yet.
+All preparation tasks preceding DOCS-003 have published commits and verified issue closures. Publish/read back the present DOCS-003 completion, then close/read back issue 3. Continue with DOCS-004 under autodoc preapproval. DOCS-009 and documentation milestone 1 remain open. Whole-package QC, preparation integration and implementation remain outside this range.
