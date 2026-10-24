@@ -24,7 +24,7 @@ Material choices presented in [PROJECT](PROJECT.md): midline-straddling ghosts; 
 | DOCS-003 | `docs/dev/ARCHITECTURE.md` SHA-256 `1a64abae8e667ec2a9debab2706c6ac07ee7b7de6855f49e0ff199ea0cbc5745`. Acceptance basis: autodoc preapproval after user acceptance of PROJECT. Scoped conformance/ownership review, local-link and heading checks passed; applicable adjacent report records substantive findings and readiness. |
 | DOCS-004 | `docs/dev/DECOMPOSITION.md` SHA-256 `19d2c8c915b4df18b7fee2a16d8226b59ab3e3e524bb8e6fb5dfe5980969eef8`. Acceptance basis: autodoc preapproval after user acceptance of PROJECT. Scoped conformance/ownership review, local-link and heading checks passed; applicable adjacent report records substantive findings and readiness. |
 | DOCS-005 | `docs/dev/SPEC.md` SHA-256 `2de3f038a4ac2c3bd6bdec19bbd543e4d582765b211c5dc0d42ecccfaf8bf9a5`; `docs/dev/spec/GEOMETRY.md` SHA-256 `796ad69a51b007e0b65a60ca87dfe8ad8c3b2fb7a4a8110d08f0da4c6b754307`; `docs/dev/spec/CONFIGURATION.md` SHA-256 `2d4ce95c7cae084bd88e0d8d2bdf3cc00a6d18712d00cb4d7c52e26b4923cf64`; `docs/dev/SPEC-REVIEW-REPORT.md` SHA-256 `c5ff49a17bbc5e411de2dd3cd5d5ed86392e3a27964f8ca5a5dff4ea592afc30`. Acceptance basis: autodoc preapproval after user acceptance of PROJECT. Scoped conformance/ownership review, local-link and heading checks passed; applicable adjacent report records substantive findings and readiness. |
-| DOCS-006 | Not started; autodoc checkpoint preapproved. |
+| DOCS-006 | `docs/dev/PLAN.md` SHA-256 `df101b37fc2c4daf1e36c795597352d8f009c2b61fc4ef4cf199da6cb3066992`; `docs/dev/PLAN-REVIEW-REPORT.md` SHA-256 `0762c194e713feb20e0189f2c2042369c3dcec5ac30329f4b9abcb03e4959e61`. Acceptance basis: autodoc preapproval after user acceptance of PROJECT. Scoped conformance/ownership review, local-link and heading checks passed; applicable adjacent report records substantive findings and readiness. |
 | DOCS-007 | Not started; autodoc checkpoint preapproved. |
 | DOCS-008 | Not started; autodoc checkpoint preapproved. |
 | DOCS-009 | Not started; outside the selected autodoc stop. |
@@ -44,4 +44,4 @@ Material choices presented in [PROJECT](PROJECT.md): midline-straddling ghosts; 
 
 ## Pending transitions
 
-All preparation tasks preceding DOCS-005 have published commits and verified issue closures. Publish/read back the present DOCS-005 completion, then close/read back issue 5. Continue with DOCS-006 under autodoc preapproval. DOCS-009 and documentation milestone 1 remain open. Whole-package QC, preparation integration and implementation remain outside this range.
+All preparation tasks preceding DOCS-006 have published commits and verified issue closures. Publish/read back the present DOCS-006 completion, then close/read back issue 6. Continue with DOCS-007 under autodoc preapproval. DOCS-009 and documentation milestone 1 remain open. Whole-package QC, preparation integration and implementation remain outside this range.
