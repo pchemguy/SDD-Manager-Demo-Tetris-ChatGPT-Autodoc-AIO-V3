@@ -22,7 +22,7 @@ Material choices presented in [PROJECT](PROJECT.md): midline-straddling ghosts; 
 | DOCS-001 | All four existing root files retained byte for byte against initial commit 125b90e1e6e456a627acd259d735d244cce82c6c; no root copies needed. Task list, this record and HANDOFF initialized together. Packaged provenance scaffold copied and integrated as described below. |
 | DOCS-002 | PROJECT proposal SHA-256 `111827f3a0a641f7a469cf822d0c5d190c4ef84fb07503c9e6e32f5fb3c76993`; Human accepted the exact proposal in commit 5d02e2e6ac3100a36fe2fb26fd35ff37f4b33322 with “Approve”. Reviewed against the complete request for scope, consequential interactions, document boundaries and Markdown/link hygiene. Accepted proposal bytes retained unchanged; defaults and non-goals carry this human acceptance. |
 | DOCS-003 | `docs/dev/ARCHITECTURE.md` SHA-256 `1a64abae8e667ec2a9debab2706c6ac07ee7b7de6855f49e0ff199ea0cbc5745`. Acceptance basis: autodoc preapproval after user acceptance of PROJECT. Scoped conformance/ownership review, local-link and heading checks passed; applicable adjacent report records substantive findings and readiness. |
-| DOCS-004 | Not started; autodoc checkpoint preapproved. |
+| DOCS-004 | `docs/dev/DECOMPOSITION.md` SHA-256 `19d2c8c915b4df18b7fee2a16d8226b59ab3e3e524bb8e6fb5dfe5980969eef8`. Acceptance basis: autodoc preapproval after user acceptance of PROJECT. Scoped conformance/ownership review, local-link and heading checks passed; applicable adjacent report records substantive findings and readiness. |
 | DOCS-005 | Not started; autodoc checkpoint preapproved. |
 | DOCS-006 | Not started; autodoc checkpoint preapproved. |
 | DOCS-007 | Not started; autodoc checkpoint preapproved. |
@@ -44,4 +44,4 @@ Material choices presented in [PROJECT](PROJECT.md): midline-straddling ghosts; 
 
 ## Pending transitions
 
-All preparation tasks preceding DOCS-003 have published commits and verified issue closures. Publish/read back the present DOCS-003 completion, then close/read back issue 3. Continue with DOCS-004 under autodoc preapproval. DOCS-009 and documentation milestone 1 remain open. Whole-package QC, preparation integration and implementation remain outside this range.
+All preparation tasks preceding DOCS-004 have published commits and verified issue closures. Publish/read back the present DOCS-004 completion, then close/read back issue 4. Continue with DOCS-005 under autodoc preapproval. DOCS-009 and documentation milestone 1 remain open. Whole-package QC, preparation integration and implementation remain outside this range.
