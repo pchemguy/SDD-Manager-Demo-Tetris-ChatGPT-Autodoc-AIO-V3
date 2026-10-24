@@ -43,3 +43,7 @@ Follow `sdd-manage`'s preparation and phase-activation workflows for required tr
 ## Project guidance
 
 Maintain project-specific navigation and validated setup/check commands here as they become established. Do not invent commands, paths, requirements or completion claims.
+
+## Development navigation
+
+Current design: [PROJECT](docs/dev/PROJECT.md), [ARCHITECTURE](docs/dev/ARCHITECTURE.md), [DECOMPOSITION](docs/dev/DECOMPOSITION.md) and [SPEC](docs/dev/SPEC.md). Delivery strategy is in [PLAN](docs/dev/PLAN.md); physical ownership is in [layout](docs/dev/layout.md). Application/build/test commands are planned there and must not be claimed runnable before implementation establishes and verifies them.

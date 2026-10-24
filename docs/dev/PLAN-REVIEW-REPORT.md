@@ -2,9 +2,9 @@
 
 ## Current gate
 
-State: **Ready for layout authoring; TASKS held until combined layout review**. Owner: sdd-plan, 2026-10-24. No confirmed strategy blocker remains. Scope is delivery strategy, not whole-package QC or implementation evidence.
+State: **Ready for TASKS derivation (combined PLAN/layout)**. Owner: sdd-plan, 2026-10-24. No confirmed strategy blocker remains. Scope is delivery strategy, not whole-package QC or implementation evidence.
 
-Reviewed: `PLAN.md` SHA-256 `df101b37fc2c4daf1e36c795597352d8f009c2b61fc4ef4cf199da6cb3066992`.
+Reviewed: `PLAN.md` SHA-256 `e62a1e1ed5012bfe3f3778846d9ad929bd62f1ffab245c9ffb236936cc05c9d5`; `layout.md` SHA-256 `092fb569553466ff5b46e908b0407a0ec589b1e7f723f3da07b4eb91f174b353`.
 
 Governing inputs:
 
@@ -37,3 +37,11 @@ Manually traced each SPEC group to phase inclusions/deferrals, reviewed every ph
 | Complete configuration child, C-01 and full Q-01 | Phase 5 | All source/write failures, real reloads and complete regression/distribution. |
 
 All delivery milestones have code-review/test/repair/report/HANDOFF exits; dedicated one-task phase review milestones remain explicit. Version/release gates follow verified integration, with no premature implementation/publication claim. No confirmed conformance finding or correction cycle occurred in this strategy review. Counts are deliberately below the preferred 3–5 where the simple capability boundaries justify them; no padding is required. Layout coverage is pending and blocks TASKS until reviewed. No game tests were run.
+
+## Revision 1 — Combined layout review
+
+Added physical ownership in layout and rechecked PLAN against it. The original strategy-only assessment remains above as its historical boundary; current combined readiness supersedes its pending-layout limit. Corrected the nonsemantic “scorers” typo in milestone 1.2 to “scores”; no phase, dependency, acceptance or contract changed.
+
+Reviewed final states: `PLAN.md` SHA-256 `e62a1e1ed5012bfe3f3778846d9ad929bd62f1ffab245c9ffb236936cc05c9d5`; `layout.md` SHA-256 `092fb569553466ff5b46e908b0407a0ec589b1e7f723f3da07b4eb91f174b353`. Governing SPEC/design hashes are unchanged from the initial review. Checked D1–D4/C1–C2/S1/V1–V2/A1–A2 in both directions against their source/test allocation, fixtures, browser app path, generated output, commands-to-be-established, user/developer guides, version/release files and report locations. Imports follow the dependency direction; source cannot import tests. No empty files or implementation commands were created/run.
+
+All five phase outcomes have physical homes and browser/unit/integration evidence paths. No component placement gap or blocker was found. Layout explicitly distinguishes planned paths/commands from existing implementation and prevents a test harness from substituting for production-app acceptance. Original small-count rationale remains applicable. Local links/headings/diff checks accompany this checkpoint. TASKS may now derive bounded edits from the reviewed strategy and placement; no implementation or whole-package readiness is claimed.
