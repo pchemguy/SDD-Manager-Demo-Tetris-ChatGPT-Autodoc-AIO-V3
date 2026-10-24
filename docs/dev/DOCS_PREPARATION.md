@@ -4,23 +4,23 @@
 
 - Mode: autodoc/onepass, selected by the user's project request on 2026-10-24.
 - Scope: complete browser Tetris project including all requested gameplay, penetrator, configuration and persistence capabilities; simplest sensible baseline first.
-- Approval basis: PROJECT remains subject to human approval. Autodoc preapproves subsequent document checkpoints ARCHITECTURE through TASKS; it does not accept unresolved material product choices.
+- Approval basis: The user approved PROJECT and its proposed decisions in the current conversation (2026-10-24). Autodoc preapproves subsequent document checkpoints ARCHITECTURE through TASKS; it does not accept unresolved material product choices.
 - Tracking: enabled for preparation and implementation by root AGENTS.md. Publication: push and read back each owned commit.
-- Next boundary: publish the PROJECT proposal and pause for its acceptance; after acceptance proceed through DOCS-008, then stop before DOCS-009.
+- Next boundary: proceed through DOCS-008, then stop before DOCS-009.
 - Reporting: Standard after Explicit bootstrap; available profiles are Minimal, Standard and Explicit.
 
 ## Scope source and decisions
 
 The user requests desktop browser Tetris: classic falling tetrominoes, movement, rotation, clearing, score and increasing speed; Hold, ghost, 7-bag, wall kicks, hard drop, full-gravity-interval default locking; configurable dynamic ghost visibility; penetrator traversal without destruction, valid final placement, lowest-valid hard drop/ghost, four-line bonus awards capped at three, white penetrator and bonus symbols; all six configuration controls; independent URL/cookie/default resolution and persistence on change, preserving cookies for omitted parameters and saving explicit defaults. Session-only settings may precede persistence. Release every implemented, verified and integrated phase with a managed version/tag and notes.
 
-Material choices presented in [PROJECT](PROJECT.md): midline-straddling ghosts; lock timing and resets; penetrator activation, movement, Hold and locking; invalid and duplicated configuration values; live policy changes; proposed technology and non-goals. None is claimed as a user-confirmed decision yet. Detailed proposed resolutions are retained in PROJECT rather than duplicated here. No game implementation or release is authorized by documentation acceptance alone.
+Material choices presented in [PROJECT](PROJECT.md): midline-straddling ghosts; lock timing and resets; penetrator activation, movement, Hold and locking; invalid and duplicated configuration values; live policy changes; proposed technology and non-goals. The user accepted these proposed decisions with PROJECT approval. No new material decision is unresolved. Detailed proposed resolutions are retained in PROJECT rather than duplicated here. No game implementation or release is authorized by documentation acceptance alone.
 
 ## Decisions and document evidence
 
 | Task | Evidence / decision basis |
 | --- | --- |
 | DOCS-001 | All four existing root files retained byte for byte against initial commit 125b90e1e6e456a627acd259d735d244cce82c6c; no root copies needed. Task list, this record and HANDOFF initialized together. Packaged provenance scaffold copied and integrated as described below. |
-| DOCS-002 | PROJECT proposal SHA-256 `111827f3a0a641f7a469cf822d0c5d190c4ef84fb07503c9e6e32f5fb3c76993`; human acceptance pending. Reviewed against the complete request for scope, consequential interactions, document boundaries and Markdown/link hygiene. Agent-proposed defaults and non-goals are labelled explicitly. DOCS-002 remains unchecked. |
+| DOCS-002 | PROJECT proposal SHA-256 `111827f3a0a641f7a469cf822d0c5d190c4ef84fb07503c9e6e32f5fb3c76993`; Human accepted the exact proposal in commit 5d02e2e6ac3100a36fe2fb26fd35ff37f4b33322 with “Approve”. Reviewed against the complete request for scope, consequential interactions, document boundaries and Markdown/link hygiene. Accepted proposal bytes retained unchanged; defaults and non-goals carry this human acceptance. |
 | DOCS-003–008 | Not started; subsequent checkpoints preapproved by autodoc once PROJECT is accepted. |
 | DOCS-009 | Not started; outside the selected autodoc stop. |
 
@@ -39,4 +39,4 @@ Material choices presented in [PROJECT](PROJECT.md): midline-straddling ghosts; 
 
 ## Pending transitions
 
-Initialization d05817f992ec07cdf5268d76cbd2169b4c328d54 was published/read back; issue 1 closure was read back as completed. Publish/read back this PROJECT proposal, then await human acceptance before ARCHITECTURE. Issues 2–9 and milestone 1 remain open. No package QC, preparation integration or implementation is selected yet.
+Initialization d05817f992ec07cdf5268d76cbd2169b4c328d54 was published/read back; issue 1 closure was read back as completed. PROJECT proposal 5d02e2e6ac3100a36fe2fb26fd35ff37f4b33322 was published/read back and accepted. Publish/read back this approval commit, then close/read back issue 2 before ARCHITECTURE. Issues 3–9 and milestone 1 remain open. No package QC, preparation integration or implementation is selected yet.
